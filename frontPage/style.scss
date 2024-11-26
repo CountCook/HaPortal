@@ -1,8 +1,8 @@
 h1{
     text-align: center;
     text-shadow: 3px 3px 5px chocolate;
-    text-shadow: -3px -3px -5px cornflowerblue;
-    text-size-adjust: auto;
+    text-shadow: -3px -3px -10px cornflowerblue;
+    font-family: RacingSansOne-Regular.ttf;
 }
 body {
     background-color: #F7FFF6;
@@ -11,17 +11,18 @@ body {
   .navbar ul{
     list-style-type: none;
     background-color: #93B48B;
-    padding: 0;
+    padding: 15px;
     margin: 0;
     overflow: hidden;
   }
   
   .navbar a{
-    color: #FFB4A2;
+    color: #000000;
     text-decoration: none;
     padding: 15px;
-    display: bloack;
+    display: block;
     text-align: center;
+    font-size: 2rem;
   }
   
   .navbar a:hover{
