@@ -1,39 +1,57 @@
-h1 {
+h1{
   text-align: center;
-  text-shadow: 3px 3px 5px chocolate;
-  text-shadow: -3px -3px -5px cornflowerblue;
-  text-size-adjust: auto;
+  text-shadow: 4px 2px 5px #F7934C;
+  text-shadow: -3px -3px -10px cornflowerblue;
+  font-family:RacingSansOne-Regular.ttf;
+  font-size: 3rem
+  
 }
+h3{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+padding: 15px;
+background-color: #bb924f;
+margin: 0;
 
+}
+p{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: aqua;
+}
 body {
   background-color: #F7FFF6;
 }
 
-.navbar ul {
+
+.navbar ul{
   list-style-type: none;
-  background-color: #93B48B;
-  padding: 0;
+  background-color: #1F1300;
+  padding: 1px;
   margin: 0;
   overflow: hidden;
   font-size: larger;
 }
 
-.navbar a {
-  color: #FFB4A2;
+.navbar a{
+  color: #81d2dd;
   text-decoration: none;
   padding: 15px;
-  display: bloack;
+  display: block;
   text-align: center;
+  font-size: 1.25rem;
 }
 
-.navbar a:hover {
-  background-color: #BCEBCB;
+.navbar a:hover{
+  background-color: #fafafa;
 }
 
-.navbar li {
+.navbar li{
   float: left;
 }
-
 @font-face {
   src: url(fonts/RacingSansOne-Regular.ttf);
 }
+
