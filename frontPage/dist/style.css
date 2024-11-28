@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #F7FFF6;
+  margin: 0;
+
+}
 h1{
   text-align: center;
   text-shadow: 4px 2px 5px #F7934C;
@@ -19,13 +27,8 @@ margin: 0;
 p{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-color: aqua;
+color: #463F3A;
 }
-body {
-  background-color: #F7FFF6;
-}
-
-
 .navbar ul{
   list-style-type: none;
   background-color: #1F1300;
@@ -34,7 +37,6 @@ body {
   overflow: hidden;
   font-size: larger;
 }
-
 .navbar a{
   color: #81d2dd;
   text-decoration: none;
@@ -43,15 +45,39 @@ body {
   text-align: center;
   font-size: 1.25rem;
 }
-
 .navbar a:hover{
   background-color: #fafafa;
 }
-
 .navbar li{
   float: left;
+}
+aside {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+section {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+article {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+footer {
+  clear: both;
+  display: block;
+  padding: 15px;
+  background-color: #bb924f;
+  margin: 0;
+}
+small {
+  font-size: 1rem;
 }
 @font-face {
   src: url(fonts/RacingSansOne-Regular.ttf);
 }
+
 
