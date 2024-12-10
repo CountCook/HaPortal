@@ -35,6 +35,8 @@ color: #463F3A;
   margin: 0;
   overflow: hidden;
   font-size: larger;
+  display: flex;
+  flex-direction: column;
 }
 .navbar a{
   color: #81d2dd;
