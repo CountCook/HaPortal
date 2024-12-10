@@ -36,7 +36,10 @@ color: #463F3A;
   overflow: hidden;
   font-size: larger;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  
 }
 .navbar a{
   color: #81d2dd;
