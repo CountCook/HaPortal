@@ -5,6 +5,7 @@ body {
   background-color: #F7FFF6;
   margin: 0;
 
+
 }
 h1{
   text-align: center;
@@ -38,6 +39,7 @@ color: #463F3A;
   display: flex;
   flex-direction:row;
   justify-content: space-around;
+  flex-wrap:wrap;
   
   
 }
