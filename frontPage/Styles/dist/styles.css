@@ -4,7 +4,6 @@
 
 .navbar {
   display: grid;
-  margin: calc(60ch, 100%-2rem);
 }
 
 .navul {
@@ -115,6 +114,6 @@ h1 {
 
 .con3 {
   grid-area: 1/9/7/13;
-  border: 2px solid tomato;
+  border: 2px solid #fc6f56;
   background-color: #373866;
 }

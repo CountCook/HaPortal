@@ -4,7 +4,7 @@ margin: 0;
 }
 .navbar {
     display: grid;
-    margin: calc(60ch, 100%-2rem);
+    
 }
 .navul{
 max-height: 12vh;
@@ -124,7 +124,7 @@ grid-area: 1/5/7/9;
 }
 .con3 {
     grid-area: 1/9/7/13;
-border: 2px solid tomato; 
+border: 2px solid rgb(252, 111, 86); 
 background-color: rgb(55, 56, 102);
 }
 
