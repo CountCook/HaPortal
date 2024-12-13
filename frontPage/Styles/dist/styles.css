@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+.navul {
+  max-height: 12vh;
+  max-width: 90vh;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+  background-color: #343338;
+}
+
+.navul li {
+  list-style-type: none;
+}
+
+h1 {
+  color: tomato;
+  font-size: 2.5em;
+}
+
+.gen {
+  background-color: #ee956c;
+  text-align: center;
+  border-radius: 16px;
+  grid-area: 12/1/12/2;
+}
+
+.rev {
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 16px;
+  grid-area: 12/2/12/3;
+}
+
+.play {
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 16px;
+  grid-area: 12/3/12/4;
+}
+
+.logo {
+  grid-area: 3/4/6/5;
+}
+
+.guitar {
+  grid-area: 12/4/12/5;
+  text-align: center;
+  border-radius: 16px;
+  background-color: blanchedalmond;
+}
+
+.bass {
+  grid-area: 12/5/12/6;
+  border-radius: 16px;
+  background-color: blanchedalmond;
+}
+
+.drum {
+  grid-area: 12/6/12/7;
+  border-radius: 16px;
+  background-color: blanchedalmond;
+}
+
+.sing {
+  grid-area: 12/7/12/8;
+  border-radius: 16px;
+  background-color: blanchedalmond;
+}
+
+.gridcon {
+  margin-inline: auto;
+  display: grid;
+  border: 3px solid;
+  background-color: #c0d8d8;
+}
+
+.con1 {
+  border: 2px solid;
+  background-color: beige;
+}
+
+.con2 {
+  border: 2px solid;
+  background-color: blueviolet;
+}
+
+.con3 {
+  border: 2px solid tomato;
+  background-color: chartreuse;
+}
