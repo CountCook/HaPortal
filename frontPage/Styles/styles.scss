@@ -60,6 +60,7 @@ background-color: rgb(238, 149, 108);
 text-align: center;
 grid-area: 12 / 1 / 12 / 2;
 
+
 }
 .rev{
 
@@ -101,6 +102,8 @@ text-align: center;
 .gridcon{
 
     display: grid;
+    justify-content: start;
+    gap: 1em;
     grid-template: repeat(12, 3fr) / repeat(12,3fr);
     border: 3px solid;
     background-color: rgb(243, 243, 243);
