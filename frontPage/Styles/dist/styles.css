@@ -1,20 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
 }
 
+:root {
+  --bg-main-color:#122c34;
+  --bg-puprle-color: #1e1c22;
+  --bg-sec-color: #4ea5d9;
+  --bg-third-color:#eb9486;
+  --fn-tomato-color:#ff6347;
+  --rn-green-color: #2e3532;
+  --rn-yellow-color: #f3de8a;
+}
+
+header {
+  flex: 1;
+}
+
+main {
+  min-height: 100vh;
+}
+
 .navbar {
   display: grid;
-  margin: calc(60ch, 100%-2rem);
 }
 
 .navul {
-  max-height: 12vh;
+  height: 15vh;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr);
-  margin-inline: auto;
   align-items: center;
+  flex: 1;
   display: grid;
-  background-color: #1e1c22;
+  background-color: var(--bg-puprle-color);
   grid-column-gap: 1vh;
+  flex-flow: row wrap;
 }
 
 .navul li, button, a {
@@ -23,8 +45,9 @@
   justify-content: center;
   border-radius: 8px;
   background-color: #1e1c22;
-  color: tomato;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #ff6347;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 button:hover {
@@ -45,12 +68,18 @@ button:active {
 
 h1 {
   margin-top: 3vh;
-  color: tomato;
+  color: var(--fn-tomato-color);
   font-size: 3.5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .logo {
   grid-area: 2/3/6/5;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  display: block;
+  width: 90%;
 }
 
 .gen {
