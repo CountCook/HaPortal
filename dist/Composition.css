@@ -2,3 +2,18 @@
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr);
 }
+
+.gridHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  gap: 0.5rem;
+}
+
+.gridSideBar {
+  display: grid;
+  grid-area: 1/1/13/3;
+  flex: 1;
+  justify-items: center;
+}
