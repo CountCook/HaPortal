@@ -2,7 +2,7 @@
   --bg-main-color:#122c34;
   --bg-puprle-color: #1e1c22;
   --bg-lpuprle-color: #312c3bdb;
-  --bg-sec-color: #4ea5d9;
+  --bg-sec-color: #4ea6d9;
   --bg-third-color:#eb9486;
   --fn-tomato-color:#ff6347;
   --fn-yaron-color: rgba(245, 245, 245, 0.601);
@@ -16,6 +16,10 @@ html, body {
 
 body {
   background-color: var(--bg-puprle-color);
+}
+
+.roundCorners {
+  border-radius: 8px;
 }
 
 .logo {
@@ -36,6 +40,10 @@ body {
 
 .bgGreen {
   background-color: var(--rn-green-color);
+}
+
+.bgBlue {
+  background-color: var(--bg-sec-color);
 }
 
 .buttonGeneral {

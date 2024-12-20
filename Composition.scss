@@ -14,5 +14,10 @@ display: grid;
 grid-area: 1 / 1 / 13 / 3;
 flex: 1;
 justify-items: center;
-
+}
+.gridMain{
+    display: grid;
+    grid-area: 1 / 4 / 13 / 8;
+    flex: 1;
+    margin-top: 2rem;
 }
