@@ -1,0 +1,4 @@
+Metallica Greatest Hits playlist
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=kWEhFGawcINwrDSi&amp;list=PLt04BbU3ELLD6Tq9HKpPJCeh6ZK7sB9p5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=1UkQKqlEv6T8EL40&amp;list=PLt04BbU3ELLD6Tq9HKpPJCeh6ZK7sB9p5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
