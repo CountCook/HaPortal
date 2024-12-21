@@ -17,17 +17,18 @@
   flex: 1;
   align-items: start;
   justify-items: center;
-  min-width: 12ch;
-  max-width: fit-content;
+  min-width: 200px;
+  max-width: 200px;
+  overflow: hidden;
 }
 
 .gridRegi {
   display: grid;
-  grid-area: 1/4/13/8;
+  grid-area: 1/4/3/8;
   flex: 1;
   margin-top: 2rem;
   max-width: 400px;
-  min-width: fit-content;
+  min-width: 300px;
   min-height: 100vh;
 }
 
@@ -36,4 +37,9 @@
   grid-area: 1/9/13/13;
   flex: 1;
   overflow: scroll;
+}
+
+.intro {
+  display: grid;
+  grid-area: 4/4/10/8;
 }

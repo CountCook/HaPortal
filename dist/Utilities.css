@@ -27,8 +27,10 @@ body {
 }
 
 .videoBox {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -72,7 +74,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-family: fantasy;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
 }
 
 .buttonGeneral:hover {
@@ -85,6 +88,21 @@ a:active {
   background-color: var(--bg-main-color);
 }
 
-button:active {
+.buttonGeneral:active {
   background-color: var(--bg-main-color);
+}
+
+.buttonNoSpace {
+  background-color: var(--bg-third-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: fantasy;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+}
+
+.buttonNoSpace:hover {
+  background-color: var(--bg-main-color);
+  color: var(--fn-tomato-color);
+  border-radius: 10px;
 }
