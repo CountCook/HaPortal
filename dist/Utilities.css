@@ -33,6 +33,14 @@ body {
   padding: 0;
 }
 
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
 .logo {
   color: var(--fn-tomato-color);
   font-size: 3.5em;
@@ -67,6 +75,15 @@ body {
 
 .bgBlue {
   background-color: var(--bg-sec-color);
+}
+
+.fnColorSalamon {
+  color: var(--bg-third-color);
+}
+
+.fnNice {
+  font-family: Cursive;
+  font-weight: bold;
 }
 
 .buttonGeneral {

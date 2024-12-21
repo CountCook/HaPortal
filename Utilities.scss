@@ -30,6 +30,12 @@ max-height: 200px;
 margin: 0;
 padding: 0;
 }
+.noPadding{
+padding: 0;
+}
+.noMargin{
+margin: 0;
+}
 
 
 
@@ -53,7 +59,7 @@ border: 3px solid #2d3e09f2;
 border-radius: 8px;
 }
 
-//Backgrounds
+//Backgrounds, colors & fonts 
 .bgLight{
 background-color: var(--bg-lpuprle-color);
 }
@@ -65,6 +71,13 @@ background-color: var(--rn-green-color);
 }
 .bgBlue{
 background-color: var(--bg-sec-color);
+}
+.fnColorSalamon{
+color: var(--bg-third-color);
+}
+.fnNice{
+   font-family: Cursive;
+   font-weight: bold; 
 }
 
 

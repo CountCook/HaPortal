@@ -25,9 +25,8 @@ overflow: hidden;
     flex: 1;
     margin-top: 2rem;
     max-width: 400px;
-    min-width: 300px;
-    min-height: 100vh;
-   
+    min-width: fit-content;
+    min-height: 50vh;
     
 }
 .gridNews{
@@ -39,6 +38,14 @@ overflow: hidden;
 
 .intro{
     display: grid;
-    grid-area: 4 / 4 / 10 / 8;
-
+    grid-area: 2 / 3 / 10 / 9;
+    gap: 2rem;
+    
+    
+   p{
+    margin: 10px;
+    padding: 2px;
+    text-justify: auto;
+    text-align: justify;
+   }
 }
