@@ -11,13 +11,14 @@ gap: 0.5rem;
 }
 .gridSideBar{
 display: grid;
-grid-area: 1 / 1 / 13 / 3;
+grid-area: 1 / 1 / 5 / 3;
 flex: 1;
 align-items: start;
 justify-items: center;
 min-width: 200px;
 max-width: 200px;
 overflow: hidden;
+max-height: fit-content;
 }
 .gridRegi{
     display: grid;
@@ -31,21 +32,34 @@ overflow: hidden;
 }
 .gridNews{
     display: grid;
-    grid-area: 1 / 9 / 13 / 13;
+    grid-area: 1 / 9 / 5 / 13;
     flex: 1; 
     overflow: scroll;
+    max-height: fit-content;
 }
 
 .intro{
     display: grid;
-    grid-area: 2 / 3 / 10 / 9;
-    gap: 2rem;
+    grid-area: 2 / 3 / 5 / 9;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    height: fit-content;
     
     
    p{
-    margin: 10px;
-    padding: 2px;
+    display: grid;
     text-justify: auto;
     text-align: justify;
-   }
+    margin-inline: 5px;
+    row-gap: 1rem;
+    
+}
+}
+
+.gridFooter{
+   display: grid; 
+   grid-area: 5 / 1 / 13 / 13; 
+   max-height: fit-content;
+   min-height: fit-content;
+    
 }
