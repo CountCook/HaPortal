@@ -1,6 +1,6 @@
 .gridPage{
 display: grid;
-grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+grid-template: repeat(12, auto-fit) / repeat(12, auto-fit);
 }
 .flexHeader{
 display: flex;
