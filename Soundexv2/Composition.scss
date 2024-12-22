@@ -9,6 +9,15 @@ justify-content: center;
 width: 100vw;
 gap: 0.5rem;
 }
+.flexStandardColumn{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+width: 100vw;
+gap: 0.5rem;
+
+}
 
 .gridSideBar{
 display: grid;
@@ -28,7 +37,7 @@ max-height: fit-content;
     margin-top: 2rem;
     max-width: 400px;
     min-width: fit-content;
-    min-height: 50vh;
+    min-height: 100vh;
     
 }
 .gridNews{
