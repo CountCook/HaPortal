@@ -10,14 +10,28 @@ width: 100vw;
 gap: 0.5rem;
 }
 .flexStandardColumn{
-display: flex;
+display:flex;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content: center;
-width: 100vw;
-gap: 0.5rem;
-
+justify-content: space-around;
+align-items: center;
+padding: 0;
+min-height: 100vh;
+min-width: 70vw;
 }
+
+.flexStandard{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+min-height: 100vh;
+padding: 0;
+width: 100%;
+margin: 0;
+}
+
+
 
 .gridSideBar{
 display: grid;
@@ -35,7 +49,6 @@ max-height: fit-content;
     grid-area: 1 / 4 / 3 / 8;
     flex: 1;
     margin-top: 2rem;
-    max-width: 400px;
     min-width: fit-content;
     min-height: 100vh;
     
@@ -72,22 +85,4 @@ max-height: fit-content;
    max-height: fit-content;
    min-height: fit-content;
     
-}
-// forums
-.liForum {
-    display: grid;
-      
-}
-.topicOne{
-    grid-area: 2/4/4/7;
-}
-.topicTwo{
-    grid-area: 4/4/6/7;
-}
-.topicThree{
-    grid-area: 6/4/8/7;
-
-}
-.topicFour{
-    grid-area: 8/4/10/7;
 }

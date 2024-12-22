@@ -12,3 +12,41 @@ Music Reviews: Dive deep into the world of music with comprehensive reviews from
 Playlists: Curate and share playlists that reflect your mood, genre, or musical discoveries. Explore user-created lists that range from the latest chart-toppers to niche subgenres, and connect with others who share your taste in music. Create your own playlist collections to inspire others or find the perfect soundtrack for any occasion.
 
 Join SoundEX and be part of a community where music is heard, experienced, shared, and celebrated!
+
+
+/ forums
+//.liForum {
+  //  display: grid;
+      
+//}
+//.topicOne{
+ //   grid-area: 2/4/4/7;
+//}
+//.topicTwo{
+ //////   grid-area: 4/4/6/7;
+//}
+//.topicThree{
+    grid-area: 6/4/8/7;
+
+}
+.topicFour{
+    grid-area: 8/4/10/7;
+}
+
+.logos{
+display: flex;
+flex-wrap: wrap;
+margin-inline: auto;
+width: fit-content;
+justify-content: space-around;
+margin-top: 2rem;
+gap: 5rem;
+li{
+width: fit-content;
+margin-inline: 1rem;   
+}
+.logo{
+    height: 400;
+    width: 400;
+    border-radius: 50%;
+}
