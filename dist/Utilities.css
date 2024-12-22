@@ -123,8 +123,3 @@ a:active {
   color: var(--fn-tomato-color);
   border-radius: 10px;
 }
-
-#topicOne {
-  border: 2px solid var(--fn-yaron-color);
-  border-radius: 10px;
-}
