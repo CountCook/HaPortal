@@ -44,6 +44,12 @@
   overflow: hidden;
   max-height: fit-content;
 }
+@media screen and (width < 18rem) {
+  .gridSideBar {
+    display: grid;
+    grid-area: 3/1/7/5;
+  }
+}
 
 .gridRegi {
   display: grid;
@@ -53,13 +59,24 @@
   min-width: fit-content;
   min-height: 100vh;
 }
+@media screen and (width < 18rem) {
+  .gridRegi {
+    display: grid;
+    grid-area: 1/1/3/5;
+  }
+}
 
 .gridNews {
   display: grid;
   grid-area: 1/9/5/13;
   flex: 1;
-  overflow: scroll;
   max-height: fit-content;
+}
+@media screen and (width < 18rem) {
+  .gridNews {
+    display: grid;
+    grid-area: 10/1/12/5;
+  }
 }
 
 .intro {
@@ -75,6 +92,12 @@
   text-align: justify;
   margin-inline: 5px;
   row-gap: 1rem;
+}
+@media screen and (width < 18rem) {
+  .intro {
+    display: grid;
+    grid-area: 7/1/10/5;
+  }
 }
 
 .gridFooter {
