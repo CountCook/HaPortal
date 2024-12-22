@@ -89,11 +89,13 @@ font-weight: bold;
 font-family: fantasy;
 letter-spacing: 0.7px;
 border-radius: 10px;
+transition: scale 300ms;
+
 }
 .buttonGeneral:hover{
     background-color: var(--bg-main-color);
     color: var(--fn-tomato-color);
-    font-size: larger;
+    scale: 1.2;
     
     }
 a:active{
