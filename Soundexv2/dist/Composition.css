@@ -11,6 +11,15 @@
   gap: 0.5rem;
 }
 
+.flexStandardColumn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  gap: 0.5rem;
+}
+
 .gridSideBar {
   display: grid;
   grid-area: 1/1/5/3;
@@ -30,7 +39,7 @@
   margin-top: 2rem;
   max-width: 400px;
   min-width: fit-content;
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 .gridNews {
@@ -63,21 +72,22 @@
   min-height: fit-content;
 }
 
-.topicsFirst {
-  display: grid;
-  grid-area: 4/5/6/7;
-  border: 2px solid;
-}
-
-.topicsSecond {
-  display: grid;
-  grid-area: 4/5/6/7;
-}
-
-.topicsThird {
+.liForum {
   display: grid;
 }
 
-.topicsFirst {
-  display: grid;
+.topicOne {
+  grid-area: 2/4/4/7;
+}
+
+.topicTwo {
+  grid-area: 4/4/6/7;
+}
+
+.topicThree {
+  grid-area: 6/4/8/7;
+}
+
+.topicFour {
+  grid-area: 8/4/10/7;
 }

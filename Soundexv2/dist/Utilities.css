@@ -41,6 +41,10 @@ body {
   margin: 0;
 }
 
+.maxHeight15vh {
+  max-height: 15vh;
+}
+
 .logo {
   color: var(--fn-tomato-color);
   font-size: 3.5em;
