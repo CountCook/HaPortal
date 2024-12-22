@@ -65,29 +65,25 @@ max-height: fit-content;
     
 }
 // forums
-.liForum {
-  display: grid;
-  grid-area: 1/2/13/13;
-  margin-inline:auto;
-  gap:2rem;
+
+
+.topicsFirst {
+    display:grid;
+    grid-area: 4/5/6/7;
+    border: 2px solid; 
+   
+
 }
-#topicOne {
-    display: grid;
-    grid-area: 1/5/3/9;
+.topicsSecond {
+    display:grid;
+    grid-area: 4/5/6/7;
+
 }
-#topicTwo {
-    display: grid;
-    grid-area: 3/5/5/9;
+.topicsThird {
+    display:grid;
+
 }
-#topicThree {
-    display: grid;
-    grid-area: 5/5/7/9;
-}
-#topicFour {
-    display: grid;
-    grid-area: 7/5/9/9;
-}
-#topicFive {
-    display: grid;
-    grid-area: 9/5/11/9;
+.topicsFirst {
+    display:grid;
+
 }
