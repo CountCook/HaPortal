@@ -94,6 +94,13 @@ color: var(--bg-third-color);
 
 
 //Buttons & links
+.buttonTest{
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 1em;
+    margin:0;
+
+}
 .buttonGeneral{
 background-color: var(--bg-third-color);
 text-transform: uppercase;
@@ -152,6 +159,7 @@ a:active{
     
     }
     .forumButton:hover{
+        opacity: 0.5;
         background-color: var(--bg-main-color);
         color: var(--fn-tomato-color);
         scale: 1.2;
@@ -162,6 +170,7 @@ a:active{
     }
     .forumButton:active{
         background-color: var(--bg-main-color);
+        opacity: 0.8;
     
     }
     .forumButtonTopic{
