@@ -4,6 +4,8 @@
   --bg-lpuprle-color: #312c3bdb;
   --bg-sec-color: #4ea6d9;
   --bg-third-color:#eb9486;
+  --bg-Forbutton-color:#D0FEF5;
+  --bg-forumbg-color: white smoke;
   --fn-tomato-color:#ff6347;
   --fn-yaron-color: rgba(245, 245, 245, 0.601);
   --rn-green-color: #2d3e09f2;
@@ -99,6 +101,13 @@ body {
   font-weight: bold;
 }
 
+.buttonTest {
+  background-color: tomato;
+  color: whitesmoke;
+  padding: 1em;
+  margin: 0;
+}
+
 .buttonGeneral {
   background-color: var(--bg-third-color);
   text-transform: uppercase;
@@ -140,4 +149,58 @@ a:active {
 
 .topicsFirst {
   background-color: #ff6347;
+}
+
+.forumButton {
+  display: flex;
+  margin: 0 1em 1em 1em;
+  padding: 1em;
+  background-color: var(--bg-third-color);
+  font-weight: bold;
+  font-family: roboto;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+  transition: scale 300ms;
+}
+
+.forumButton:hover {
+  opacity: 0.5;
+  background-color: var(--bg-main-color);
+  color: var(--fn-tomato-color);
+  scale: 1.2;
+}
+
+a:active {
+  background-color: var(--bg-main-color);
+}
+
+.forumButton:active {
+  background-color: var(--bg-main-color);
+  opacity: 0.8;
+}
+
+.forumButtonTopic {
+  display: flex;
+  margin: 0 1em 1em 1em;
+  padding: 1em;
+  background-color: var(--fn-yaron-color);
+  font-weight: bold;
+  font-family: roboto;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+  transition: scale 300ms;
+}
+
+.forumButtonTopic:hover {
+  background-color: var(--bg-main-color);
+  color: var(--fn-tomato-color);
+  scale: 1.2;
+}
+
+a:active {
+  background-color: var(--bg-main-color);
+}
+
+.forumButtonTopic:active {
+  background-color: var(--bg-main-color);
 }
