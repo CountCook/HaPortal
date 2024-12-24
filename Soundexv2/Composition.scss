@@ -1,14 +1,49 @@
+.gridHeader{
+margin-inline: auto ;
+display: grid;
+grid-template: repeat(3, auto-fit) / repeat(3, auto-fit)
+
+
+
+}
+
+.gridHeader2{
+    display: grid;
+    grid-area: 1/2/1/4;
+    justify-content: center;
+    
+    @media screen and (width<300px) {
+        display: flex;
+        
+    }
+    }
+
+.gridHeader3{
+display: grid;
+grid-area: 2/1/3/5;
+justify-content: space-evenly;
+
+
+}
+
+// .fixed{
+//     background-color: var(--bg-sec-color);
+    
+// }
+.inline {
+    display: inline-block;
+   
+}
 .gridPage{
 display: grid;
-grid-template: repeat(12, auto-fit) / repeat(12, auto-fit);
+grid-template: repeat(12, 1fr) / repeat(12, 1fr);
 }
-.flexHeader{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-width: 100vw;
-gap: 0.5rem;
-}
+
+
+
+
+
+
 .flexStandardColumn{
 display:flex;
 flex-wrap: wrap;
