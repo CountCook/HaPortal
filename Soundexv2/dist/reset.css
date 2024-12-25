@@ -6,20 +6,6 @@
   margin: 0;
 }
 
-ul, ol, menu {
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-html, body {
-  height: 100%;
-}
-
 html {
   font-size: 1.2rem;
 }
@@ -27,16 +13,13 @@ html {
 body {
   font-family: system-ui;
   line-height: 1.5;
+  padding: 200px;
+  max-width: 60vw;
+  margin-inline: auto;
 }
 
-input {
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  appearance: none;
-  border: none;
-  width: 100%;
+ul, ol, menu {
+  list-style: none;
 }
 
 a {
