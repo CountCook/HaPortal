@@ -1,0 +1,125 @@
+:root {
+  --bg-main-color:#122c34;
+  --bg-puprle-color: #1e1c22;
+  --bg-lpuprle-color: #312c3bdb;
+  --bg-sec-color: #4ea6d9;
+  --bg-third-color:#eb9486;
+  --fn-tomato-color:#ff6347;
+  --fn-yaron-color: rgba(245, 245, 245, 0.601);
+  --rn-green-color: #2d3e09f2;
+  --rn-yellow-color: #f3de8a86;
+}
+
+html, body {
+  color: var(--fn-yaron-color);
+}
+
+body {
+  background-color: var(--bg-puprle-color);
+}
+
+.roundCorners {
+  border-radius: 8px;
+}
+
+.TextCenter {
+  text-align: center;
+}
+
+.videoBox {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.logo {
+  color: var(--fn-tomato-color);
+  font-size: 3.5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 2px 2px 5px black;
+  font-weight: bold;
+}
+
+.secLogo {
+  color: var(--fn-tomato-color);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.inputDesign {
+  margin-bottom: 0.5rem;
+  border: 3px solid #2d3e09f2;
+  border-radius: 8px;
+}
+
+.bgLight {
+  background-color: var(--bg-lpuprle-color);
+}
+
+.bgMain {
+  background-color: var(--bg-main-color);
+}
+
+.bgGreen {
+  background-color: var(--rn-green-color);
+}
+
+.bgBlue {
+  background-color: var(--bg-sec-color);
+}
+
+.fnColorSalamon {
+  color: var(--bg-third-color);
+}
+
+.fnNice {
+  font-family: Cursive;
+  font-weight: bold;
+}
+
+.buttonGeneral {
+  background-color: var(--bg-third-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: fantasy;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+}
+
+.buttonGeneral:hover {
+  background-color: var(--bg-main-color);
+  color: var(--fn-tomato-color);
+  font-size: larger;
+}
+
+a:active {
+  background-color: var(--bg-main-color);
+}
+
+.buttonGeneral:active {
+  background-color: var(--bg-main-color);
+}
+
+.buttonNoSpace {
+  background-color: var(--bg-third-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: fantasy;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+}
+
+.buttonNoSpace:hover {
+  background-color: var(--bg-main-color);
+  color: var(--fn-tomato-color);
+  border-radius: 10px;
+}

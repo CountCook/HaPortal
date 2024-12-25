@@ -1,0 +1,96 @@
+.gridPage {
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+}
+
+.gridHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  gap: 0.5rem;
+}
+
+.gridSideBar {
+  display: grid;
+  grid-area: 1/1/5/3;
+  flex: 1;
+  align-items: start;
+  justify-items: center;
+  min-width: 200px;
+  max-width: 200px;
+  overflow: hidden;
+  max-height: fit-content;
+}
+
+.gridRegi {
+  display: grid;
+  grid-area: 1/4/3/8;
+  flex: 1;
+  margin-top: 2rem;
+  max-width: 400px;
+  min-width: fit-content;
+  min-height: 50vh;
+}
+
+.gridNews {
+  display: grid;
+  grid-area: 1/9/5/13;
+  flex: 1;
+  overflow: scroll;
+  max-height: fit-content;
+}
+
+.intro {
+  display: grid;
+  grid-area: 2/3/5/9;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+.intro p {
+  display: grid;
+  text-justify: auto;
+  text-align: justify;
+  margin-inline: 5px;
+  row-gap: 1rem;
+}
+
+.gridFooter {
+  display: grid;
+  grid-area: 5/1/6/6;
+  max-height: fit-content;
+  min-height: fit-content;
+}
+
+.liForum {
+  display: grid;
+  grid-area: 1/2/13/13;
+  margin-inline: auto;
+  gap: 2rem;
+}
+
+#topicOne {
+  display: grid;
+  grid-area: 1/5/3/9;
+}
+
+#topicTwo {
+  display: grid;
+  grid-area: 3/5/5/9;
+}
+
+#topicThree {
+  display: grid;
+  grid-area: 5/5/7/9;
+}
+
+#topicFour {
+  display: grid;
+  grid-area: 7/5/9/9;
+}
+
+#topicFive {
+  display: grid;
+  grid-area: 9/5/11/9;
+}

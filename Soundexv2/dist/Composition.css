@@ -1,0 +1,58 @@
+.flex-container-top {
+  background-color: #22444e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 17vh;
+}
+
+.flex-navbar {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.sidebar-container-flex {
+  position: fixed;
+  height: 83vh;
+  left: 0;
+  bottom: 0;
+  width: 20vw;
+}
+
+.sidebar-flex {
+  align-self: center;
+  justify-self: space-evenly;
+}
+
+.playlist-button {
+  justify-items: center;
+}
+
+.news-container-flex {
+  position: fixed;
+  height: 83vh;
+  right: 0;
+  bottom: 0;
+  width: 20vw;
+}
+
+.flex-container-login {
+  border: 2px solid tomato;
+  margin-inline: auto;
+}
+
+.main-contianer-flex {
+  border: 3px solid white;
+}
+
+footer {
+  background-color: var(--bg-lpuprle-color);
+  position: relative;
+  padding: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border: 2px solid tomato;
+}
