@@ -1,6 +1,6 @@
 body{
 display: flex;
-flex-wrap: warp;
+flex-wrap: wrap;
 justify-content: center;
 
 }
@@ -12,50 +12,54 @@ left: 0;
 right: 0;
 height:17vh;
 @media screen and (width < 43rem) {
-    background-color:#22444e;
-
-    top:0;
-    left: 250px;
-    right: 0;
-    height:17vh;
+  height: fit-content; 
+  position: fixed;
+  background-color:#22444e;
+  z-index: 1000;
 }
 }
 
 .flex-navbar{
     display: flex;
-    flex:1;
+  
     justify-content: center;
    
 }
-.sidebar-container-flex{
-position: fixed;
-height: 83vh;
-left:0;
-bottom:0;
-width: 20vw;
 
-}
 .flexCenter{
     display:flex;
     flex-wrap: wrap;
     justify-items: center;
     justify-content: center;
     min-width: 30rem;
-    overflow: hidden;
-    min-height: 100vh;
+
+    min-height: 100%;
     flex:1;
     @media screen and (width < 61rem) {
         min-width: 20rem;
     }
     @media screen and (width < 43rem) {
-        min-width: 15rem;
+        min-width: 90vw;
+       
     }
 }
     
 .sidebar-flex{
+    display: flex;
+    flex-direction: column;
     align-self: center;
     justify-self: space-evenly;
     justify-items: center;
+    position: fixed;
+    height: 83vh;
+    left:0;
+   bottom:0;
+   width: 20vw;
+
+
+    @media screen and (width < 43rem) {
+        display: none;
+     }
 }
 .playlist-button{
     justify-items:center;
@@ -67,12 +71,7 @@ width: 20vw;
     bottom:0;
     width:20vw;
     @media screen and (width < 43rem) {
-        background-color:#22444e;
-        position: fixed;
-        top:0;
-        left: 0;
-        right: 0;
-        height:17vh;
+       display: none;
     }
 }
 .flex-container-login{
@@ -84,6 +83,14 @@ width: 20vw;
     max-width: 177px;
     min-height: 133px;
     justify-content: center;
+    @media screen and (width < 43rem) {
+       margin-top: 0;
+       padding-top: 0;
+       position: relative;
+       bottom: 4rem;
+       scale: 1.4;
+
+     }
     
     
 }
@@ -91,15 +98,9 @@ width: 20vw;
     display: flex;
     border: 3px solid rgb(255, 255, 255);
     min-width: 20ch;
-    height: 100vh;
+    min-height: 100vh;
 
-    p{
-        display: grid;
-        text-justify: auto;
-        text-align: justify;
-        margin-inline: 5px;
-        row-gap: 1rem;
-    }
+    
 }
 footer{
     background-color: var(--bg-lpuprle-color);
@@ -107,3 +108,6 @@ footer{
     width: 100%;
     border: 2px solid tomato;
 }
+
+
+

@@ -65,6 +65,13 @@ body {
   text-shadow: 2px 2px 5px black;
   font-weight: bold;
 }
+@media screen and (width < 43rem) {
+  .logo {
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+}
 
 .secLogo {
   color: var(--fn-tomato-color);
@@ -73,7 +80,6 @@ body {
 }
 
 .inputDesign {
-  margin-bottom: 0.5rem;
   border: 3px solid #2d3e09f2;
   border-radius: 8px;
 }
@@ -118,6 +124,11 @@ body {
   letter-spacing: 0.7px;
   border-radius: 10px;
   transition: scale 300ms;
+}
+@media screen and (width < 43rem) {
+  .buttonGeneral {
+    scale: 0.8;
+  }
 }
 
 .buttonGeneral:hover {
