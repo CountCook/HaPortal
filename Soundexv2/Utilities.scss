@@ -44,6 +44,11 @@ max-height: 15vh;
 .borderSalamon{
 border: 4px solid var(--bg-third-color);
 }
+.width177{
+width: 177px;
+}
+
+
 
 
 
@@ -57,16 +62,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);  
 font-weight: bold;
 
-<<<<<<< HEAD
-
-@media screen and (width < 55rem){
-    font-size: 1.5rem;
-}
-=======
 // @media screen and (width < 55rem){
 //     font-size: 1.5rem;
 // }
->>>>>>> side
 }
 
 .secLogo{

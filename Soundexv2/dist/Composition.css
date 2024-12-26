@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-wrap: warp;
+  justify-content: center;
+}
+
 .flex-container-top {
   background-color: #22444e;
   position: fixed;
@@ -5,6 +11,15 @@
   left: 0;
   right: 0;
   height: 17vh;
+}
+@media screen and (width < 43rem) {
+  .flex-container-top {
+    background-color: #22444e;
+    top: 0;
+    left: 250px;
+    right: 0;
+    height: 17vh;
+  }
 }
 
 .flex-navbar {
@@ -21,9 +36,31 @@
   width: 20vw;
 }
 
+.flexCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  min-width: 30rem;
+  overflow: hidden;
+  min-height: 100vh;
+  flex: 1;
+}
+@media screen and (width < 61rem) {
+  .flexCenter {
+    min-width: 20rem;
+  }
+}
+@media screen and (width < 43rem) {
+  .flexCenter {
+    min-width: 15rem;
+  }
+}
+
 .sidebar-flex {
   align-self: center;
   justify-self: space-evenly;
+  justify-items: center;
 }
 
 .playlist-button {
@@ -37,22 +74,43 @@
   bottom: 0;
   width: 20vw;
 }
+@media screen and (width < 43rem) {
+  .news-container-flex {
+    background-color: #22444e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 17vh;
+  }
+}
 
 .flex-container-login {
-  border: 2px solid tomato;
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 177px;
+  max-width: 177px;
+  min-height: 133px;
+  justify-content: center;
 }
 
 .main-contianer-flex {
+  display: flex;
   border: 3px solid white;
+  min-width: 20ch;
+  height: 100vh;
+}
+.main-contianer-flex p {
+  display: grid;
+  text-justify: auto;
+  text-align: justify;
+  margin-inline: 5px;
+  row-gap: 1rem;
 }
 
 footer {
   background-color: var(--bg-lpuprle-color);
-  position: relative;
-  padding: 0;
-  left: 0;
-  right: 0;
   width: 100%;
   border: 2px solid tomato;
 }
