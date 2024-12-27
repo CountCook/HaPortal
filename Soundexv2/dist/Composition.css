@@ -11,14 +11,14 @@ body {
   left: 0;
   right: 0;
   height: 17vh;
-  z-index: 500;
+  z-index: 1;
 }
 @media screen and (width < 43rem) {
   .flex-container-top {
     height: fit-content;
     position: fixed;
     background-color: #22444e;
-    z-index: 500;
+    z-index: 1;
   }
 }
 
@@ -167,8 +167,10 @@ footer {
 .thread-container-flex {
   margin-left: 0;
   padding: 0;
-  height: 60vh;
+  height: 100vh;
   border: 2px solid tomato;
+  width: 100%;
+  align-content: space-between;
 }
 
 .thread-container-top {

@@ -110,8 +110,8 @@ body {
 }
 
 .fnNice {
-  font-family: Cursive;
-  font-weight: bold;
+  font-family: Stencil Std, fantasy;
+  letter-spacing: 0.7px;
 }
 
 .bgGreenOpacity {
@@ -130,7 +130,7 @@ body {
   background-color: var(--bg-third-color);
   text-transform: uppercase;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: Courier, monospace;
   letter-spacing: 0.7px;
   border-radius: 10px;
   z-index: 500;
@@ -159,7 +159,7 @@ a:active {
   background-color: var(--bg-third-color);
   text-transform: uppercase;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: Stencil Std, fantasy;
   letter-spacing: 0.7px;
   border-radius: 10px;
 }

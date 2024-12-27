@@ -12,6 +12,26 @@
 </head>
 <body>
     <header>
+        <article class="loginBOX">
+            <button class="showLogin roundCorners secLogo" id="openlogin" onclick="openPopup()">&#9835 Enter SoundEX &#9835</button>
+            <form class="flex-container-login bgGreenOpacity roundCorners" id="loginPOP">
+                 <h3 class="secLogo TextCenter width177">Enter SoundEX</h3>
+                <input class="inputDesign" type="text" name="username" placeholder="username" required>
+                <input class="inputDesign" type="password" name="password" placeholder="password" required>
+                <input class="buttonGeneral width177" type="submit" value="LOGIN">
+                <button class="showLogin roundCorners secLogo" id="openlogin" onclick="closePopup()">CANCEL &#10008</button>
+            </form>
+            <script>
+                function openPopup() {
+                    document.getElementById('loginPOP').style.display = 'flex';
+                    document.getElementById('openlogin').style.display = 'none';
+                }
+                function closePopup() {
+                    document.getElementById('loginPOP').style.display = 'none';
+                    document.getElementById('openlogin').style.display = 'flex';
+                }
+            </script>
+        </article>
         <nav class="forum-top-flex-container">
                 <h1 class="forum-logo logo">General</h1>
                 <ul class="forum-list">
@@ -33,49 +53,53 @@
 
     </header>
     <main class="thread-container-flex">
+        <menu class="thread-container-flex">
+        <article class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name</li>
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
             </Ul>
 <!-- These two need to be closer on the left side -->
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
-            </ul>  
+            </ul>
+        </article>  
             
+        <article class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name 2</li>
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
             </Ul>
 <!-- These two need to be closer on the left side -->
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
-            </ul> 
-
+            </ul>
+        </article>  
+        <article class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name 3</li>
+                <li><button class="buttonGeneral">BEST BAND?</button></li>
+                <li>Taylor222</li>
+            </Ul>
+<!-- These two need to be closer on the left side -->
+            <ul class="thread-container-bottom">
+                <li class="date-of-publish">12/03/2025</li>
+                <li class="time-of-publish">04:13</li>
+            </ul>
+        </article>  
+        <article class="threadBox bgGreenOpacity borderSalamon">
+            <ul class="thread-container-top">
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
             </Ul>
 <!-- These two need to be closer on the left side -->
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
-            </ul> 
-
-            <ul class="thread-container-top">
-                <li>Topic name 4</li>
-                <li>author</li>
-            </Ul>
-<!-- These two need to be closer on the left side -->
-            <ul class="thread-container-bottom">
-                <li class="date-of-publish">date of publishing</li>
-                <li class="time-of-publish">time of publishing</li>
-            </ul> 
-               
-               
-            
-
+            </ul>
+        </article> 
+    </menu> 
     </main>
 </body>
 </html>

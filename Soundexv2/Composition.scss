@@ -11,12 +11,12 @@ top:0;
 left: 0;
 right: 0;
 height:17vh;
-z-index: 500;
+z-index: 1;
 @media screen and (width < 43rem) {
   height: fit-content; 
   position: fixed;
   background-color:#22444e;
-  z-index: 500;
+  z-index: 1;
 }
 }
 
@@ -275,8 +275,10 @@ display: flex;
 .thread-container-flex{
     margin-left:0;
     padding:0;
-    height:60vh;
+    height:100vh;
     border:2px solid tomato;
+    width: 100%;
+    align-content: space-between;
     
 }
 .thread-container-top{
