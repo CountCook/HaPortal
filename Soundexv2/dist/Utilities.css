@@ -56,6 +56,10 @@ body {
   width: 177px;
 }
 
+.opa {
+  opacity: 1;
+}
+
 .logo {
   display: flex;
   flex: 1;
@@ -110,6 +114,11 @@ body {
   font-weight: bold;
 }
 
+.bgGreenOpacity {
+  background-image: linear-gradient(var(--bg-main-color), var(--rn-green-color), var(--rn-yellow-color));
+  opacity: 0.95;
+}
+
 .buttonTest {
   background-color: tomato;
   color: whitesmoke;
@@ -124,7 +133,7 @@ body {
   font-family: fantasy;
   letter-spacing: 0.7px;
   border-radius: 10px;
-  transition: scale 300ms;
+  z-index: 500;
 }
 @media screen and (width < 43rem) {
   .buttonGeneral {

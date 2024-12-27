@@ -11,13 +11,14 @@ body {
   left: 0;
   right: 0;
   height: 17vh;
+  z-index: 500;
 }
 @media screen and (width < 43rem) {
   .flex-container-top {
     height: fit-content;
     position: fixed;
     background-color: #22444e;
-    z-index: 1000;
+    z-index: 500;
   }
 }
 
@@ -89,14 +90,15 @@ body {
   max-width: 177px;
   min-height: 133px;
   justify-content: center;
+  z-index: 1000;
 }
 @media screen and (width < 43rem) {
   .flex-container-login {
-    margin-top: 0;
+    margin: 1rem;
     padding-top: 0;
-    position: relative;
     bottom: 4rem;
-    scale: 1.4;
+    scale: 1.3;
+    z-index: 1000;
   }
 }
 
