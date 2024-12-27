@@ -212,35 +212,77 @@ a:active{
         
         }
 .showLogin{
-background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color));
-padding: 5px;
-cursor: pointer;
+      display: flex;
+      position: relative;
+      background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color));
+      padding: auto;
+      cursor: pointer;
+      width: fit-content;
+      text-align: center;
+      animation: move 5s infinite;
+
+      @keyframes move{
+      0% {top:0px}
+      25%{top:2px}
+      50%{top:4px}
+      75%{top:2px}
+      100%{top:0px}
+      }
+    
 }
-#show:checked ~ .flex-container-login{
-display: flex;
-}
-#show:checked ~ .closeButton{
-display: flex;
-}
-#show:checked ~ .showLogin{
-display: none;
-}
-input[type="checkbox"]{
-display: none;
-}
-.closeButton{
-background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color)); 
-padding: 2px;
-cursor: pointer;
-display: none;  
+.showLogin:hover{
+    scale: 1.5;
 }
 
-#close:checked ~ .showLogin{
-display: flex;
-}
-// #close:checked ~ .closeButton{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// }
+// // #show:checked ~ .flex-container-login{
+// // display: flex;
+// // }
+// // #show:checked ~ .closeButton{
+// display: flex;
+// }
+// #show:checked ~ .showLogin{
 // display: none;
 // }
-#close:checked ~ .showLogin{
-display: flex;
-}
+// input[type="checkbox"]{
+// display: none;
+// }
+// .closeButton{
+// background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color)); 
+// padding: 2px;
+// cursor: pointer;
+// display: none;  
+// }
+
+// #close:checked ~ .showLogin{
+// display: flex;
+// }
+// // #close:checked ~ .closeButton{
+// // display: none;
+// // }
+// #close:checked ~ .showLogin{
+// display: flex;
+// }
