@@ -112,3 +112,80 @@ footer {
   width: 100%;
   border: 2px solid tomato;
 }
+
+.forum-top-flex-container {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.forum-logo {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.forum-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: end;
+  flex: 2;
+}
+
+.forum-bottom-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.forum-profile {
+  display: flex;
+}
+
+.forum-searchbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+.forum-notifications {
+  display: flex;
+}
+
+.icon-profile {
+  padding: 1rem;
+}
+
+.icon-notifications {
+  padding: 1rem;
+}
+
+.thread-container-flex {
+  margin-left: 0;
+  padding: 0;
+  height: 60vh;
+  border: 2px solid tomato;
+}
+
+.thread-container-top {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.thread-container-bottom {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.date-of-publish {
+  display: flex;
+  justify-items: center;
+}
+
+.time-of-publish {
+  justify-self: center;
+}
