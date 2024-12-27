@@ -214,3 +214,25 @@ a:active {
 .forumButtonTopic:active {
   background-color: var(--bg-main-color);
 }
+
+.showLogin {
+  background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color), var(--rn-yellow-color));
+  padding: 5px;
+  cursor: pointer;
+}
+
+#show:checked ~ .flex-container-login {
+  display: flex;
+}
+
+#show:checked ~ .closeButton {
+  display: flex;
+}
+
+#show:checked ~ .showLogin {
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
