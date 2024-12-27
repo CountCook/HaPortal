@@ -227,19 +227,19 @@ display: none;
 input[type="checkbox"]{
 display: none;
 }
-// .closeButton{
-// background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color)); 
-// padding: 2px;
-// cursor: pointer;
-// display: none;  
-// }
+.closeButton{
+background-image: linear-gradient(var(--bg-sec-color), var(--bg-third-color),var(--rn-yellow-color)); 
+padding: 2px;
+cursor: pointer;
+display: none;  
+}
 
-// #close:checked ~ .flex-container-login{
-// display: none;
-// }
+#close:checked ~ .showLogin{
+display: flex;
+}
 // #close:checked ~ .closeButton{
 // display: none;
 // }
-// #close:checked ~ .showLogin{
-// display: flex;
-// }
+#close:checked ~ .showLogin{
+display: flex;
+}
