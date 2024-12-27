@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: system-ui;
+  line-height: 1.5;
+  padding: 0;
+  max-width: 60vw;
+  margin-inline: auto;
+}
+
+ul {
+  list-style-type: none;
+}
