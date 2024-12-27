@@ -60,7 +60,6 @@ footer {
 .forum-top-flex-container {
   display: flex;
   margin-top: 0;
-  border: 2px solid tomato;
   justify-content: center;
 }
 
@@ -80,7 +79,8 @@ footer {
 
 .forum-bottom-flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
 
 .forum-profile {
@@ -99,14 +99,37 @@ footer {
 }
 
 .icon-profile {
-  border: none;
-  background-color: none;
-  scale: 1;
-  height: 60px;
-  width: 70px;
-  border-radius: 60px;
+  padding: 1rem;
 }
 
 .icon-notifications {
-  scale: 1;
+  padding: 1rem;
+}
+
+.thread-container-flex {
+  margin-left: 0;
+  padding: 0;
+  height: 60vh;
+  border: 2px solid tomato;
+}
+
+.thread-container-top {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.thread-container-bottom {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.date-of-publish {
+  display: flex;
+  justify-items: center;
+}
+
+.time-of-publish {
+  justify-self: center;
 }
