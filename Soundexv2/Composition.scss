@@ -18,12 +18,19 @@ z-index: 1;
   background-color:#22444e;
   z-index: 1;
 }
+
 }
 
 .flex-navbar{
     display: flex;
-  
     justify-content: center;
+    @media screen and (width < 38rem) {
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        overflow: hidden;
+       
+      }
    
 }
 
@@ -93,6 +100,7 @@ z-index: 1;
        z-index: 1000;
 
      }
+     
     
     
 }

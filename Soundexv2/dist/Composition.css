@@ -26,6 +26,14 @@ body {
   display: flex;
   justify-content: center;
 }
+@media screen and (width < 38rem) {
+  .flex-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    overflow: hidden;
+  }
+}
 
 .flexCenter {
   display: flex;
