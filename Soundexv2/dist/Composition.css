@@ -1,7 +1,16 @@
+html {
+  height: 100%;
+}
+
+main {
+  flex: 1;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 100%;
 }
 
 .flex-container-top {
@@ -10,7 +19,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 17vh;
+  height: 23vh;
   z-index: 1;
 }
 @media screen and (width < 43rem) {
@@ -25,6 +34,7 @@ body {
 .flex-navbar {
   display: flex;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 @media screen and (width < 38rem) {
   .flex-navbar {
@@ -41,6 +51,7 @@ body {
   justify-items: center;
   justify-content: center;
   min-width: 30rem;
+  flex: 1;
   min-height: 100%;
   flex: 1;
 }
@@ -62,7 +73,7 @@ body {
   justify-self: space-evenly;
   justify-items: center;
   position: fixed;
-  height: 83vh;
+  height: 77vh;
   left: 0;
   bottom: 0;
   width: 20vw;
@@ -79,7 +90,7 @@ body {
 
 .news-container-flex {
   position: fixed;
-  height: 83vh;
+  height: 77vh;
   right: 0;
   bottom: 0;
   width: 20vw;
@@ -113,13 +124,7 @@ body {
   display: flex;
   border: 3px solid white;
   min-width: 20ch;
-  min-height: 100vh;
-}
-
-footer {
-  background-color: var(--bg-lpuprle-color);
-  width: 100%;
-  border: 2px solid tomato;
+  flex: 1;
 }
 
 .forum-top-flex-container {
