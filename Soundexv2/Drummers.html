@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drummers</title>
+    <title>General</title>
     <link rel="stylesheet" href="/dist/resetforum.css">
     <link rel="stylesheet" href="/Soundexv2/dist/Composition.css">
     <link rel="stylesheet" href="/Soundexv2/dist/Utilities.css">
@@ -12,70 +12,96 @@
 </head>
 <body>
     <header>
+        <article class="loginBOX">
+            <button class="showLogin roundCorners secLogo" id="openlogin" onclick="openPopup()">&#9835 Enter SoundEX &#9835</button>
+            <form class="flex-container-login bgGreenOpacity roundCorners" id="loginPOP">
+                 <h3 class="secLogo TextCenter width177">Enter SoundEX</h3>
+                <input class="inputDesign" type="text" name="username" placeholder="username" required>
+                <input class="inputDesign" type="password" name="password" placeholder="password" required>
+                <input class="buttonGeneral width177" type="submit" value="LOGIN">
+                <button class="showLogin roundCorners secLogo" id="openlogin" onclick="closePopup()">CANCEL &#10008</button>
+            </form>
+            <script>
+                function openPopup() {
+                    document.getElementById('loginPOP').style.display = 'flex';
+                    document.getElementById('openlogin').style.display = 'none';
+                }
+                function closePopup() {
+                    document.getElementById('loginPOP').style.display = 'none';
+                    document.getElementById('openlogin').style.display = 'flex';
+                }
+            </script>
+        </article>
         <nav class="forum-top-flex-container">
                 <h1 class="forum-logo logo">Drummers</h1>
                 <ul class="forum-list">
-                    <li> <button class="buttonGeneral"> <a href="/Soundexv2/General.html">General</a> </button></li>
                     <li><button class="buttonGeneral"> <a href="/Soundexv2/Musicreviews.html">Reviews</a> </button></li>
                     <li><button class= "buttonGeneral"> <a href="/Soundexv2/Playlists.html" >Playlists</a></button></li>
-                    <li><button class="buttonGeneral"><a href="/Soundexv2/Guitarists.html" target="_blank">Guitarists</a></button></li>
-                    <li><button class="buttonGeneral"><a href="" target="_blank">Bassists</a></button></li>
-                    <li ><button class="buttonGeneral"><a href="" target="_blank">Singers</a></button></li> 
+                    <li><button class="buttonGeneral"><a href="/Soundexv2/Guitarists.html">Guitarists</a></button></li>
+                    <li><button class="buttonGeneral"><a href="/Soundexv2/Bassists.html">Bassists</a></button></li>
+                    <li><button class="buttonGeneral"><a href="/Soundexv2/General.html">General</a></button></li>
+                    <li ><button class="buttonGeneral"><a href="/Soundexv2/Singers.html">Singers</a></button></li> 
                     </ul>
         </nav>
 
-        <nav class="forum-bottom-flex-container">
-                <nav class="forum-profile"><button class="icon-profile buttonGeneral">Profile</button></nav> 
-                <nav class="forum-searchbar"><input type="text" placeholder="Search"> </nav>
-                <nav class="forum-notifications"><button class="icon-notifications buttonGeneral">Notifications</button></nav>
-
+        <nav class="flexCenter">
+             <li><button class="icon-profile buttonGeneral">Profile</button></li> 
+                <li><button class="icon-profile buttonGeneral">New thread</button></li> 
+                <li><button class="icon-notifications buttonGeneral">Notifications</li>
+                <li class="searchLine"><button class="search-button">Search</button><input type="text" class="search-input roundCorners" placeholder="Search..."></li>
         </nav>
 
     </header>
     <main class="thread-container-flex">
+        <menu class="thread-container-flex">
+        <li class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name</li>
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
-            </Ul>
-<!-- These two need to be closer on the left side -->
-            <ul class="thread-container-bottom">
-                <li class="date-of-publish">date of publishing</li>
-                <li class="time-of-publish">time of publishing</li>
-            </ul>  
-            
-            <ul class="thread-container-top">
-                <li>Topic name 2</li>
-                <li>author</li>
-            </Ul>
-<!-- These two need to be closer on the left side -->
+            </ul>
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
             </ul> 
-
+        </li>  
+        <li class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name 3</li>
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
-            </Ul>
-<!-- These two need to be closer on the left side -->
+            </ul>
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
             </ul> 
-
+        </li>  <li class="threadBox bgGreenOpacity borderSalamon">
             <ul class="thread-container-top">
-                <li>Topic name 4</li>
+                <li><button class="buttonGeneral">Topic name</button></li>
                 <li>author</li>
-            </Ul>
-<!-- These two need to be closer on the left side -->
+            </ul>
             <ul class="thread-container-bottom">
                 <li class="date-of-publish">date of publishing</li>
                 <li class="time-of-publish">time of publishing</li>
             </ul> 
-               
-               
-            
-
+        </li>  <li class="threadBox bgGreenOpacity borderSalamon">
+            <ul class="thread-container-top">
+                <li><button class="buttonGeneral">Topic name</button></li>
+                <li>author</li>
+            </ul>
+            <ul class="thread-container-bottom">
+                <li class="date-of-publish">date of publishing</li>
+                <li class="time-of-publish">time of publishing</li>
+            </ul> 
+        </li>  <li class="threadBox bgGreenOpacity borderSalamon">
+            <ul class="thread-container-top">
+                <li><button class="buttonGeneral">Topic name</button></li>
+                <li>author</li>
+            </ul>
+            <ul class="thread-container-bottom">
+                <li class="date-of-publish">date of publishing</li>
+                <li class="time-of-publish">time of publishing</li>
+            </ul> 
+        </li>  
+    </menu> 
     </main>
 </body>
 </html>
