@@ -223,7 +223,7 @@ footer{
 
 .forum-top-flex-container{
     display: flex;
-    margin-top:0;
+    margin-top:2rem;
     
     justify-content: center;
     
@@ -249,19 +249,11 @@ footer{
     justify-content: space-evenly;
     margin-top:1rem;
 }
-.forum-profile{
-display: flex;
-}
-.forum-searchbar{
-    padding:1rem;
-    display: flex;
-    justify-content: center;
-    flex:2;
 
-}
-.forum-notifications{
-    display: flex;
+
+.forum-searchbar{
     
+
 }
 
 .icon-profile{
@@ -273,24 +265,29 @@ display: flex;
 }
 
 .thread-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
     margin-left:0;
     padding:0;
     height:100vh;
-    border:2px solid tomato;
-    width: 100%;
-    align-content: space-between;
+    width: 80vw;
+
+    align-content: space-evenly;
     
 }
-.thread-container-top{
-display: flex;
-padding:0;
-justify-content: space-between;
+  .thread-container-top{
+   display: flex;
+   
+   justify-content: space-between;
+   width: 80vw;
 
 }
 .thread-container-bottom{
     display: flex;
-    padding:0;
+    padding: 15px; 
     justify-content: space-around;
+    width: 80vw;
 
 }
 

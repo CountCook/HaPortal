@@ -134,6 +134,7 @@ body {
   letter-spacing: 0.7px;
   border-radius: 10px;
   z-index: 500;
+  cursor: pointer;
 }
 @media screen and (width < 43rem) {
   .buttonGeneral {
@@ -201,14 +202,12 @@ a:active {
 
 .forumButtonTopic {
   display: flex;
-  margin: 0 1em 1em 1em;
-  padding: 1em;
   background-color: var(--fn-yaron-color);
   font-weight: bold;
   font-family: roboto;
   letter-spacing: 0.7px;
-  border-radius: 10px;
   transition: scale 300ms;
+  cursor: pointer;
 }
 
 .forumButtonTopic:hover {
