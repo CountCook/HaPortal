@@ -230,6 +230,7 @@ a:active{
       width: fit-content;
       text-align: center;
       animation: move 5s infinite;
+      margin-right: 5rem;
 
       @keyframes move{
       0% {top:0px}
@@ -243,21 +244,6 @@ a:active{
 .showLogin:hover{
     scale: 1.5;
 }
-
-// .search-container {
-//     display: flex;
-//     align-items: center;
-//     background-color: var(--bg-sec-color);
-//     border-radius: 25px;
-//     border: 3px solid var(--rn-green-color);
-//     padding: 5px 15px;
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-//     margin-bottom: 30rem;
-
-//     @media screen and(width<28rem) {
-//         margin-inline: auto;
-//     }
-// }
 
 .searchLine{
     @media screen and(width<30rem) {

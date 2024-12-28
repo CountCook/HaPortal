@@ -233,6 +233,7 @@ a:active {
   width: fit-content;
   text-align: center;
   animation: move 5s infinite;
+  margin-right: 5rem;
 }
 @keyframes move {
   0% {
