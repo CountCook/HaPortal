@@ -255,3 +255,90 @@ a:active {
 .showLogin:hover {
   scale: 1.5;
 }
+
+@media screen and (width < 30rem) {
+  .searchLine {
+    margin-left: 3rem;
+  }
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 5rem;
+}
+@media screen and (width < 28rem) {
+  .search-input {
+    scale: 0.8;
+  }
+}
+
+.search-button {
+  font-family: monospace;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--fn-tomato-color);
+  padding: 0;
+  margin-right: 0.3rem;
+  position: relative;
+  top: 0.3rem;
+  margin-bottom: 0.5rem;
+  animation: halfSpin 5s infinite;
+}
+@media screen and (width < 28rem) {
+  .search-button {
+    scale: 0.3;
+    position: relative;
+    top: 2.5rem;
+    right: 3rem;
+  }
+}
+@keyframes halfSpin {
+  0% {
+    rotate: 0deg;
+  }
+  10% {
+    rotate: 36deg;
+    scale: 0.7;
+  }
+  25% {
+    rotate: 90deg;
+    scale: 0.5;
+    margin: 0.4rem;
+  }
+}
+
+.search-button:hover {
+  animation: fastSpin 5s linear;
+  background-image: repeating-linear-gradient(var(--bg-main-color), var(--bg-sec-color), var(--rn-yellow-color));
+  background-color: rgba(0, 0, 0, 0.5);
+  border: rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+@keyframes fastSpin {
+  0% {
+    rotate: 0deg;
+    scale: 0.5;
+  }
+  25% {
+    rotate: 90deg;
+    scale: 0.7;
+  }
+  50% {
+    rotate: 180deg;
+    scale: 0.5;
+  }
+  75% {
+    rotate: 270deg;
+    scale: 0.7;
+  }
+  100% {
+    rotate: 360deg;
+    scale: 0.5deg;
+  }
+}

@@ -111,127 +111,45 @@ footer{
     width: 100%;
     border: 2px solid tomato;
 }
-// .flexStandardColumn{
-// display:flex;
-// flex-wrap: wrap;
-// flex-direction: column;
-// justify-content: space-around;
-// align-items: center;
-// padding: 0;
-// min-height: 100vh;
-// min-width: 70vw;
-// }
 
-// .flexStandard{
-// display: flex;
-// flex-wrap: nowrap;
-// flex-direction: row;
-// justify-content: center;
-// min-height: 100vh;
-// padding: 0;
-// width: 100%;
-// margin: 0;
-// }
-
-// .gridPage{
-//     display: grid;
-//     grid-template: repeat(12, auto-fit) / repeat(12, auto-fit);
-//     }
-
-// .gridSideBar{
-// display: grid;
-// grid-area: 1 / 1 / 5 / 3;
-// flex: 1;
-// align-items: start;
-// justify-items: center;
-// min-width: 200px;
-// max-width: 200px;
-// overflow: hidden;
-// max-height: fit-content;
-
-// @media screen and (width < 18rem){
-//     display: grid; 
-//     grid-area: 3 / 1 / 7 / 5;
-
-
-//    }
-// }
-// .gridRegi{
-//     display: grid;
-//     grid-area: 1 / 4 / 3 / 8;
-//     flex: 1;
-//     margin-top: 2rem;
-//     min-width: fit-content;
-//     min-height: 100vh;
-
-//     @media screen and (width < 18rem){
-//      display: grid; 
-//      grid-area: 1 / 1 / 3 / 5;
-
-
-//     }
-
-    
-// }
-// .gridNews{
-//     display: grid;
-//     grid-area: 1 / 9 / 5 / 13;
-//     flex: 1; 
-//     max-height: fit-content;
-
-//     @media screen and (width < 18rem){
-//         display: grid; 
-//         grid-area: 10 / 1 / 12 / 5;
-    
-    
-//        }
-// }
-
-// .intro{
-//     display: grid;
-//     grid-area: 2 / 3 / 5 / 9;
-//     row-gap: 2rem;
-//     flex-wrap: wrap;
-//     height: fit-content;
-    
-    
-//    p{
-//     display: grid;
-//     text-justify: auto;
-//     text-align: justify;
-//     margin-inline: 5px;
-//     row-gap: 1rem;
-    
-// }
-
-// @media screen and (width < 18rem){
-//     display: grid; 
-//     grid-area: 7 / 1 / 10 / 5;
-
-
-//    }
-// }
-
-// .gridFooter{
-//    display: grid; 
-//    grid-area: 5 / 1 / 6 / 6; 
-//    max-height: fit-content;
-//    min-height: fit-content;
-    
-// }
 // Forums
 
 .forum-top-flex-container{
     display: flex;
     margin-top:2rem;
-    
+    max-width: 100vw;
     justify-content: center;
-    
+    scale: 0.8;
+    margin-inline: auto;
+    @media screen and (width < 43rem) {
+        height: fit-content; 
+        display: flex;
+        width: 100vw;
+        z-index: 1;
+        scale: 0.8;
+        justify-content: center;
+      }
+
+      @media screen and (width < 30rem) {
+        height: fit-content; 
+        display: flex;
+        width: 50%;
+        z-index: 1;
+        scale: 0.5;
+        justify-items: flex-start;
+        margin-inline: auto; 
+      }
 }
 .forum-logo{
     display: flex;
     margin:0;
     padding:0;
+    @media screen and (width < 43rem) {
+        position: relative;
+        bottom: 2.3rem;
+        left: 5rem;
+        scale: 1.5;
+      }
     
 }
 .forum-list{
@@ -240,6 +158,10 @@ footer{
     display: flex;
     align-items:end;
     flex:2;
+    @media screen and (width < 40rem) {
+        
+        scale: 1.2;
+      }
 }
 
 
@@ -248,12 +170,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     margin-top:1rem;
-}
-
-
-.forum-searchbar{
-    
-
 }
 
 .icon-profile{
@@ -274,6 +190,11 @@ footer{
     width: 80vw;
 
     align-content: space-evenly;
+   
+    @media screen and (width < 43rem) {
+        max-width: 90vw;
+       
+    }
     
 }
   .thread-container-top{
@@ -288,16 +209,5 @@ footer{
     padding: 15px; 
     justify-content: space-around;
     width: 80vw;
-
 }
-
-.date-of-publish{
-    display: flex;
-    justify-items: center;
-}
-.time-of-publish{
-    justify-self: center;
-    
-}
-
 
