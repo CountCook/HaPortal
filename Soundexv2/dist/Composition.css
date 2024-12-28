@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 23vh;
+  height: 22vh;
   z-index: 1;
 }
 @media screen and (width < 43rem) {
@@ -70,7 +70,6 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  justify-self: space-evenly;
   justify-items: center;
   position: fixed;
   height: 77vh;
@@ -82,10 +81,6 @@ body {
   .sidebar-flex {
     display: none;
   }
-}
-
-.playlist-button {
-  justify-items: center;
 }
 
 .news-container-flex {

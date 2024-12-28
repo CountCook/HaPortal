@@ -60,6 +60,10 @@ body {
   opacity: 1;
 }
 
+.marginTop2rem {
+  margin-top: 2rem;
+}
+
 .logo {
   display: flex;
   flex: 1;

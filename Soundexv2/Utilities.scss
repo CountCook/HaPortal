@@ -51,6 +51,9 @@ width: 177px;
 .opa{
 opacity: 1;
 }
+.marginTop2rem{
+margin-top: 2rem;
+}
 
 
 
@@ -106,8 +109,7 @@ color: var(--bg-third-color);
    letter-spacing: 0.7px; 
 }
 .bgGreenOpacity{
-background-image: linear-gradient(var(--bg-main-color), var(--rn-green-color),var(--rn-yellow-color));
-    
+background-image: linear-gradient(var(--bg-main-color), var(--rn-green-color),var(--rn-yellow-color));   
 opacity: 0.95;
 }
 
